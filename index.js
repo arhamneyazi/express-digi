@@ -1,5 +1,7 @@
 import "dotenv/config";
 import express from "express";
+import logger from "./logger.js";
+import morgan from "morgan";
 
 const app = express();
 const port = process.env.PORT || 3000;
